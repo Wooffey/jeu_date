@@ -1,0 +1,345 @@
+html {
+    scroll-behavior: smooth;
+}
+/* config landscape */
+@media (orientation: landscape) {
+    * {
+        flex-direction: row;
+    }
+
+    header {
+        flex-direction: row;
+    }
+
+    footer {
+        flex-direction: row;
+    }
+}
+
+/* config portrait */
+@media (orientation: portrait) {
+    * {
+        flex-direction: column;
+        margin: 0 auto;
+        height: auto;
+        width: 100%;
+        box-sizing: border-box;
+        object-fit: contain;
+    }
+
+    body {
+        display: flex;
+    }
+
+    header {
+        flex-direction: row;
+    }
+
+    main {
+        margin: 10% 0 0 0;
+    }
+
+    footer {
+        flex-direction: row;
+    }
+
+    .note {
+        width: 100%;
+    }
+
+    main section span h4 {
+        font-size: clamp(1.7em, 4vw, 40em);
+    }
+
+    nav p {
+        margin: 5% auto;
+        font-size: clamp(1.7em, 4vw, 40em);
+    }
+
+    .boxtopside h2 {
+        font-size: clamp(0.7em, 8vw, 40em);
+        margin: 20% auto;
+    }
+
+    h2 {
+        font-size: clamp(1.7em, 4vw, 40em);
+        margin: 5% auto;
+        transition: 0.7s;
+    }
+
+    .main_section p {
+        font-size: clamp(1.7em, 1vw, 40em);
+    }
+
+    h4 {
+        font-size: clamp(1.7em, 4vw, 40em);
+        margin-top: 5%;
+    }
+
+    h6 {
+        font-size: clamp(1.7em, 4vw, 40em);
+    }
+
+    main span p {
+        font-size: clamp(0.7em, 3vw, 40em);
+    }
+
+    main section p {
+        font-size: clamp(1.7em, 1vw, 40em);
+    }
+
+    div .textbox p {
+        margin-bottom: 25%;
+        transition: 0.7s;
+    }
+
+    /* config hover portrait */
+    nav p:hover {
+        transform: inherit;
+    }
+
+    /* end config hover portrait */
+}
+
+/* fin du responsive */
+/* debut des hovers */
+h1:hover {
+    color: pink;
+    transition: 0.7s;
+
+}
+
+h1 a:hover {
+    color: pink;
+    transition: 0.7s;
+}
+
+.boxes:hover {
+    transform: scale(1.025);
+    transition: 0.7s;
+}
+
+span h2:hover {
+    color: pink;
+    transition: 0.9s;
+    transform: scale(1.25);
+}
+
+nav:hover {
+    transition: 0.9s;
+}
+
+nav p a:hover {
+    color: pink;
+    transition: 0.9s;
+}
+
+nav p:hover {
+    transition: 0.9s;
+}
+
+/* fin des hovers */
+/* debut de style general */
+* {
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    object-fit: contain;
+    list-style: none;
+    text-decoration: inherit;
+    text-align: justify;
+}
+
+a {
+    text-decoration: inherit;
+    color: white;
+    transition: 0.7s;
+}
+
+p {
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    transition: 0.7s;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+span h2 {
+    transition: 0.9s;
+    font-size: clamp(0.4em, 5vw, 6em);
+}
+
+h3 {
+    text-align: center;
+}
+
+h6 {
+    padding: 1% 0;
+    font-size: clamp(0.7em, 1.5vw, 40em);
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+/* fin du style/ debut header 1*/
+header {
+    padding-top: 1.5%;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    transition: 0.7s;
+}
+
+/* fin header1/debut header2 */
+nav {
+    width: 100%;
+    background-color: black;
+    font-size: clamp(0.7em, 1.5vw, 40em);
+    text-align: center;
+    color: white;
+    display: flex;
+    transition: 0.9s;
+}
+
+nav p a {
+    transition: 0.9s;
+}
+
+nav p {
+    transition: 0.9s;
+    margin: 1% auto;
+    text-align: center;
+}
+
+/* debut du main */
+main {
+    width: 100%;
+    font-size: clamp(0.7em, 1.1vw, 4em);
+}
+
+/* config box main */
+.boxes {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    margin: 2% 5% 2% 5%;
+    transition: 0.7s;
+}
+
+.boxtopleft {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    width: 50%;
+}
+
+.boxtopside {
+    text-align: center;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    width: 50%;
+    margin: 2% auto;
+    transition: 0.7s;
+}
+
+.textbox {
+    width: 100%;
+    text-align: center;
+    margin: 5% 0
+}
+
+.textbox p {
+    width: 90%;
+}
+
+.boxtopright {
+    width: 50%;
+    height: auto;
+    margin: 0%;
+}
+
+.boxtopright img {
+    transition: 0.7s;
+    width: 90%;
+    height: auto;
+    margin: 2% 3%;
+    box-sizing: content-box;
+}
+
+/* fin config box main */
+/* debut du footer */
+footer {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    text-align: center;
+}
+
+footer section {
+    display: flex;
+    width: 5%;
+    height: auto;
+    margin-top: 1%;
+
+
+}
+
+section a {
+    width: 1/2;
+    margin: 0 10%;
+    text-align: center;
+}
+
+section a img {
+    width: 100%;
+}
+
+.negatif img {
+    filter: invert(1);
+}
+
+/* fin du footer */
+/* bouton scroll top */
+.retour-haut {
+    text-align: center;
+    position: fixed;
+    bottom: 5%;
+    left: 89%;
+    width: 10%;
+    z-index: 99;
+    padding: 1% 0;
+    border-radius: 50%;
+    border: 1px solid pink;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+    color: pink;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.retour-haut:hover {
+    background-color: pink;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 105, 130);
+    transition: 0.7s;
+}
+
+/* Afficher le bouton lorsque la page est défilée */
+body.scrolled .retour-haut {
+    display: block;
+}

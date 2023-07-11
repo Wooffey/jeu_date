@@ -1,0 +1,23 @@
+main {
+    width: 100%;
+    margin: 5% auto;
+}
+section {
+    width: 90%;
+    align-items: center;
+
+    background-color: black;
+    color: white;
+    display: flex;
+}
+h2 {
+    padding-top: 15%;
+    text-transform: uppercase;
+}
+.main_section p {
+    padding: 10%;
+    font-size: clamp(0.4em, 1.5vw, 6em);
+}
+.main_section div {
+    width: 1/2;
+}

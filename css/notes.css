@@ -1,0 +1,46 @@
+main {
+    width: 100%;
+    margin: 5% auto;
+}
+
+section {
+    width: 90%;
+    align-items: center;
+    margin-bottom: 2%;
+    background-color: black;
+    color: white;
+
+}
+main section h4 {
+    font-size: clamp(0.4em, 2.5vw, 6em);
+    text-align: center;
+    text-transform: uppercase;
+
+}
+h4 {
+    font-size: clamp(0.4em, 2.5vw, 6em);
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2.5% auto;
+}
+.reponse {
+    color: rgb(0, 0, 0);
+    background-color: pink;
+    text-transform: uppercase;
+    text-align: center;
+}
+main span {
+    display: flex;
+}
+main span div {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+div p {
+    text-align: left;
+    margin-bottom: 1%;
+}
+main section span div div {
+    display: flex;
+}
